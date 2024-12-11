@@ -1,0 +1,480 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Is anyone there?",
+        "Good morning",
+        "Good evening",
+        "How are you?",
+        "Hi there",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Hey! Looking for something specific?",
+        "Greetings! How may I assist you?",
+        "Hi! How can I make your day better?",
+        "Hello! What brings you here today?",
+        "Hi, welcome! Need help finding something?",
+        "Hello! Your friendly assistant here to help!",
+        "Hey! Let's make shopping easy today!",
+        "Hello! Ready to explore our products?",
+        "Hi there! Let's find what you're looking for."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I am leaving",
+        "Catch you later",
+        "Take care",
+        "Talk to you soon",
+        "See you",
+        "I'm out"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you soon!",
+        "Take care!",
+        "Bye! Come back anytime you need assistance.",
+        "Catch you later! Have a good one!",
+        "See you next time!",
+        "Farewell! Looking forward to helping you again.",
+        "Goodbye! Let us know when you're back.",
+        "Take care and happy shopping!",
+        "Bye! Your favorite assistant will be here when you return.",
+        "Have a fantastic day ahead!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "Much appreciated",
+        "I appreciate it",
+        "Many thanks",
+        "Thanks so much",
+        "Grateful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else.",
+        "Glad I could assist!",
+        "Always here to help!",
+        "No problem, let me know if there's more I can do.",
+        "You're welcome! Have a wonderful day!",
+        "Glad to be of help!",
+        "Feel free to ask for more assistance anytime!",
+        "It was my pleasure helping you.",
+        "No worries! I'm always here to support you."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Say something funny",
+        "Do you know any jokes?",
+        "Cheer me up",
+        "Got any funny lines?",
+        "Can you crack a joke?",
+        "Joke please",
+        "Lighten the mood"
+      ],
+      "responses": [
+        "Why don't we ever tell secrets on a farm? Because the potatoes have eyes and the corn has ears!",
+        "Why did the tomato turn red? Because it saw the salad dressing!",
+        "What do you call a fake noodle? An impasta!",
+        "Why don't eggs tell jokes? Because they might crack up!",
+        "Did you hear about the carrot detective? He got to the root of every case!",
+        "Why did the banana go to the doctor? It wasn’t peeling well!",
+        "What’s orange and sounds like a parrot? A carrot!",
+        "Why do mushrooms always get invited to parties? Because they're such fungis!",
+        "What do you get if you cross a snowman and a carrot? Frostbite!",
+        "I tried to organize a hide and seek competition, but good players are hard to find!",
+        "How do you make a tissue dance? You put a little boogie in it!"
+      ]
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "What vegetables do you have?",
+        "Show me fruits",
+        "Do you have milk?",
+        "I want to buy daily essentials",
+        "List the available vegetables",
+        "List the available fruits",
+        "Do you sell bread?",
+        "Do you have dairy products?",
+        "What fresh items are available?",
+        "Can I find organic vegetables?",
+        "Do you stock seasonal fruits?",
+        "I need essentials like eggs and milk"
+      ],
+      "responses": [
+        "We have fresh vegetables like potatoes, tomatoes, onions, spinach, and more.",
+        "Our fruits include apples, bananas, oranges, grapes, and seasonal fruits.",
+        "Yes, we have dairy products like milk, butter, and cheese.",
+        "You can find bread, eggs, and other essentials in our store.",
+        "Our selection includes fresh and organic vegetables.",
+        "Check out our range of seasonal fruits, always fresh!",
+        "We offer raw materials like spices, grains, and pulses for your kitchen needs.",
+        "Looking for leafy greens? We have spinach, kale, and more!",
+        "Want tropical fruits? Explore our mangoes, pineapples, and more.",
+        "Need baking supplies? We stock flour, sugar, and other essentials.",
+        "Find all your kitchen staples under one roof!"
+      ]
+    },
+    {
+      "tag": "kitchen_essentials",
+      "patterns": [
+        "Do you have spices?",
+        "I need cooking oil",
+        "Do you sell pulses?",
+        "Show me grains",
+        "What kitchen staples do you have?",
+        "Do you have rice and wheat flour?",
+        "I need salt and sugar",
+        "Do you sell snacks?",
+        "What condiments do you have?",
+        "Can I buy noodles here?",
+        "Do you sell pickles?"
+      ],
+      "responses": [
+        "Yes, we have a variety of spices including turmeric, cumin, and chili powder.",
+        "Our cooking oils include sunflower, mustard, and olive oil.",
+        "We offer pulses like lentils, chickpeas, and black beans.",
+        "Check out our grains section for rice, wheat, and millet.",
+        "We stock all kitchen staples including salt, sugar, and more.",
+        "You can find condiments like ketchup, mayonnaise, and sauces.",
+        "We sell snacks like chips, biscuits, and namkeen.",
+        "Looking for noodles or pasta? We have a variety to choose from.",
+        "We also sell pickles and jams to complement your meals.",
+        "Need baking essentials? Find baking soda, yeast, and more.",
+        "Our selection of pulses and grains ensures top-notch quality!"
+      ]
+    },
+    {
+      "tag": "order_tracking",
+      "patterns": [
+        "Where is my order?",
+        "Track my order",
+        "Order status",
+        "Has my package shipped?",
+        "How do I track my delivery?",
+        "Order tracking details",
+        "Track shipment",
+        "I need order tracking info",
+        "Can I see my order status?",
+        "Where's my package?"
+      ],
+      "responses": [
+        "You can track your order using the tracking ID sent to your email.",
+        "Please provide your order ID, and I'll check the status for you.",
+        "Your order is on its way! Check the tracking link for details.",
+        "The order is currently being processed. You'll receive updates soon.",
+        "Tracking details have been sent to your registered email.",
+        "Your package is on the way! Let me know if you need help tracking it.",
+        "We are preparing your order for shipment. Thanks for your patience.",
+        "Want updates? Use the tracking number on our website.",
+        "The delivery is scheduled for tomorrow. Stay tuned!",
+        "Your order was shipped earlier today. It's on the way!"
+      ]
+    },
+    {
+      "tag": "promotions",
+      "patterns": [
+        "Any discounts available?",
+        "What are today's deals?",
+        "Show me ongoing offers",
+        "Any sales on fruits?",
+        "Are there discounts on vegetables?",
+        "Is there a promotion on dairy products?",
+        "What are the weekly discounts?",
+        "Tell me about current promotions",
+        "Do you have any festive sales?",
+        "What is the best deal today?"
+      ],
+      "responses": [
+        "Today's deals include 20% off on fresh fruits and vegetables!",
+        "Check out our 'Buy One Get One Free' offer on selected items.",
+        "Enjoy flat discounts on all kitchen essentials today!",
+        "This week, get 15% off on organic produce.",
+        "We have a special sale on dairy products. Don't miss it!",
+        "Buy any 2 pulses and get the 3rd one free this weekend.",
+        "Look out for seasonal sales on our app! Big savings await.",
+        "Find exclusive discounts in our 'Offers' section!",
+        "Celebrate with us and enjoy amazing festive discounts.",
+        "Grab our daily flash sales! Great prices for limited time!"
+      ]
+    },
+    {
+      "tag": "discounts_offers",
+      "patterns": [
+        "Do you have any discounts?",
+        "Are there any offers today?",
+        "Show me ongoing deals",
+        "What are the current discounts?",
+        "Any special offers available?"
+      ],
+      "responses": [
+        "Yes, we have discounts on selected fruits and vegetables today!",
+        "Check out our deals section for exciting offers!",
+        "We have a special 10% off on dairy products today.",
+        "Explore our combo offers for extra savings!",
+        "Don't miss out on our limited-time festive discounts!"
+      ]
+    },
+    {
+      "tag": "store_hours",
+      "patterns": [
+        "What are your store timings?",
+        "When does the store open?",
+        "What time do you close?",
+        "Can I shop late at night?",
+        "Are you open on weekends?"
+      ],
+      "responses": [
+        "Our store is open from 8 AM to 10 PM daily.",
+        "We are open 7 days a week, 8 AM to 10 PM.",
+        "You can shop anytime between 8 in the morning and 10 at night.",
+        "Yes, we are open on weekends too!",
+        "Feel free to visit us during our working hours, 8 AM - 10 PM."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment options do you accept?",
+        "Do you take credit cards?",
+        "Can I pay via UPI?",
+        "Do you accept cash?",
+        "What are the payment modes available?"
+      ],
+      "responses": [
+        "We accept cash, credit/debit cards, and UPI payments.",
+        "You can pay via multiple modes like cards, cash, and UPI.",
+        "We support all major payment methods for your convenience.",
+        "Feel free to choose from cash, UPI, or card payments.",
+        "All major wallets and online payment methods are also accepted."
+      ]
+    },
+    {
+      "tag": "order_tracking",
+      "patterns": [
+        "How can I track my order?",
+        "Where is my delivery?",
+        "Can you check my order status?",
+        "When will my order arrive?",
+        "How do I check delivery progress?"
+      ],
+      "responses": [
+        "You can track your order using the tracking link sent to your email.",
+        "Visit the 'My Orders' section in your account to check the status.",
+        "Your order status is available in the app under the tracking tab.",
+        "Feel free to reach out with your order ID for updates.",
+        "Delivery status updates are sent via SMS or email as well."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What is your return policy?",
+        "Can I return a damaged product?",
+        "Do you accept returns?",
+        "How do I initiate a return?",
+        "Is there a return window for items?"
+      ],
+      "responses": [
+        "You can return products within 7 days of purchase if they are damaged or defective.",
+        "Please visit our returns page to initiate a return.",
+        "We accept returns for unopened and undamaged items within the return period.",
+        "Reach out to our customer service for hassle-free returns.",
+        "Our return policy covers all items except perishable goods."
+      ]
+    },
+    {
+      "tag": "healthy_eating",
+      "patterns": [
+        "How can I eat healthier?",
+        "Do you have healthy food options?",
+        "What products promote healthy eating?",
+        "Can you suggest healthy items?",
+        "I want to switch to a healthy diet."
+      ],
+      "responses": [
+        "We offer a wide range of organic vegetables and fruits to support healthy eating.",
+        "Try our fresh produce and whole grains for a balanced diet.",
+        "Incorporate our nuts, seeds, and superfoods into your meals for better health.",
+        "Switch to our chemical-free organic products for a healthier lifestyle.",
+        "We recommend our fresh greens and lean proteins for a nutritious diet."
+      ]
+    },
+    {
+      "tag": "organic_products",
+      "patterns": [
+        "Do you sell organic products?",
+        "Are your vegetables organic?",
+        "What organic fruits do you have?",
+        "I want chemical-free items.",
+        "Do you stock organic dairy?"
+      ],
+      "responses": [
+        "Yes, we offer a variety of organic vegetables, fruits, and dairy products.",
+        "Our store stocks certified organic items free from harmful chemicals.",
+        "Switch to organic options for better health and a sustainable lifestyle.",
+        "Explore our organic section for fresh, chemical-free products.",
+        "Yes, our organic dairy and produce ensure top-notch health benefits."
+      ]
+    },
+    {
+      "tag": "immunity_boost",
+      "patterns": [
+        "What can I eat to boost my immunity?",
+        "Do you have immunity-boosting foods?",
+        "Suggest something to improve immunity.",
+        "How can I strengthen my immune system?",
+        "I need foods that help fight colds and flu."
+      ],
+      "responses": [
+        "We recommend citrus fruits like oranges and lemons for vitamin C.",
+        "Try our fresh ginger, garlic, and turmeric to enhance immunity.",
+        "Stock up on leafy greens and berries for antioxidant benefits.",
+        "Include our nuts, seeds, and honey in your diet for natural immunity support.",
+        "Check out our immunity-boosting packs with herbs, spices, and superfoods."
+      ]
+    },
+    {
+      "tag": "dietary_needs",
+      "patterns": [
+        "Do you have gluten-free products?",
+        "I need vegan options.",
+        "Do you sell lactose-free milk?",
+        "What products are suitable for a keto diet?",
+        "Can you help with dietary restrictions?"
+      ],
+      "responses": [
+        "We stock gluten-free flours, breads, and snacks for your needs.",
+        "Explore our plant-based products for a complete vegan diet.",
+        "Yes, we offer lactose-free and plant-based milk options.",
+        "For keto enthusiasts, we have low-carb vegetables, nuts, and seeds.",
+        "Let us know your dietary restrictions, and we'll recommend suitable products."
+      ]
+    },
+    {
+      "tag": "weight_management",
+      "patterns": [
+        "What can I eat to lose weight?",
+        "Do you sell low-calorie foods?",
+        "I want to manage my weight with healthy options.",
+        "Can you suggest diet-friendly foods?",
+        "How can I maintain a healthy weight?"
+      ],
+      "responses": [
+        "Our fresh salads, fruits, and lean proteins are great for weight loss.",
+        "Try our whole grains and healthy snacks for balanced weight management.",
+        "We offer low-calorie, nutrient-rich products to support your goals.",
+        "Incorporate our green vegetables and detox drinks into your routine.",
+        "Explore our selection of high-fiber foods to keep you feeling full longer."
+      ]
+    },
+    {
+      "tag": "heart_health",
+      "patterns": [
+        "What foods are good for the heart?",
+        "Do you sell heart-healthy oils?",
+        "How can I improve my heart health?",
+        "Suggest foods for a healthy heart.",
+        "I want to focus on cardiovascular health."
+      ],
+      "responses": [
+        "We recommend our olive oil and nuts for heart-healthy fats.",
+        "Include our whole grains, beans, and leafy greens in your meals for a healthier heart.",
+        "Our berries and avocados are excellent for cardiovascular health.",
+        "Try our omega-rich seeds like flaxseed and chia seeds.",
+        "Switch to our low-sodium options for better heart health."
+      ]
+    },
+    {
+      "tag": "mental_wellness",
+      "patterns": [
+        "Do you have foods for better focus?",
+        "What can I eat to reduce stress?",
+        "I need brain-boosting foods.",
+        "How can I improve my mental wellness?",
+        "Suggest foods to help with anxiety."
+      ],
+      "responses": [
+        "Our walnuts and blueberries are known to enhance brain health.",
+        "Try our dark chocolate and green tea for stress relief.",
+        "Include fatty fish and flaxseeds for Omega-3s that support mental clarity.",
+        "We recommend our herbal teas and calming chamomile for anxiety.",
+        "Stock up on avocados and leafy greens for a healthy mind."
+      ]
+    },
+    {
+      "tag": "hydration",
+      "patterns": [
+        "What helps with hydration?",
+        "Do you sell coconut water?",
+        "I need foods with high water content.",
+        "How can I stay hydrated?",
+        "Suggest drinks for summer hydration."
+      ],
+      "responses": [
+        "We offer fresh coconut water and hydrating fruit juices.",
+        "Try our water-rich fruits like watermelon and cucumber.",
+        "Our herbal teas are a refreshing way to stay hydrated.",
+        "Check out our electrolyte drinks for optimal hydration.",
+        "Hydrate with our cooling summer fruits and refreshing beverages."
+      ]
+    },
+    {
+      "tag": "healthy_snacking",
+      "patterns": [
+        "Do you have healthy snacks?",
+        "I need guilt-free snacking options.",
+        "What snacks are good for health?",
+        "Do you sell roasted nuts?",
+        "Suggest some nutritious snacks."
+      ],
+      "responses": [
+        "We have roasted nuts, seeds, and trail mixes for healthy snacking.",
+        "Try our baked chips and low-calorie crackers for guilt-free indulgence.",
+        "Our dried fruits and granola bars are perfect snack-time options.",
+        "Explore our hummus and fresh veggie sticks for a wholesome snack.",
+        "Check out our range of protein-packed energy bites."
+      ]
+    },
+    {
+      "tag": "child_nutrition",
+      "patterns": [
+        "Do you have kid-friendly healthy foods?",
+        "What can I feed my child for better growth?",
+        "I need healthy snacks for children.",
+        "Do you sell fresh juices for kids?",
+        "Suggest foods to boost child immunity."
+      ],
+      "responses": [
+        "We offer fresh juices, whole-grain snacks, and dried fruits for kids.",
+        "Our selection of nuts and seeds are great for growing children.",
+        "Try our fortified cereals and dairy products for child nutrition.",
+        "We recommend fresh fruits and homemade snack kits for kids.",
+        "Boost your child's immunity with our superfoods like honey and turmeric."
+      ]
+    }
+  ]
+}
