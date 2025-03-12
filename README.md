@@ -57,19 +57,19 @@ python chat.py
 Below are some examples of the chatbot in action:
 
 ### Example Interaction 1
-Mango: Hello! Type 'quit' to exit the chat.
-You: show me fruits
-Mango: Find all your kitchen staples under one roof!
-You: do you have milk
-Mango: We have fresh vegetables like potatoes, tomatoes, onions, spinach, and more.
-You: store hours
-Mango: I do not understand. Can you please rephrase?
-You: tell me about time
-Mango: We sell snacks like chips, biscuits, and namkeen.
-You: could you give me the open of store
-Mango: You can shop anytime between 8 in the morning and 10 at night.
-You: quit
-Mango: Goodbye!
+Mango: Hello! Type 'quit' to exit the chat. \n
+You: show me fruits \n
+Mango: Find all your kitchen staples under one roof! \n
+You: do you have milk  \n
+Mango: We have fresh vegetables like potatoes, tomatoes, onions, spinach, and more. \n
+You: store hours \n
+Mango: I do not understand. Can you please rephrase? \n
+You: tell me about time \n
+Mango: We sell snacks like chips, biscuits, and namkeen. \n
+You: could you give me the open of store \n
+Mango: You can shop anytime between 8 in the morning and 10 at night. \n
+You: quit \n
+Mango: Goodbye! \n
 
 ## Future Improvements
 - Adding web deployment for enhanced accessibility.
